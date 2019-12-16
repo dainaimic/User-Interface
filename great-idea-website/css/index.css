@@ -67,9 +67,9 @@ h1, h2, h3, h4, h5 {
 
 html {
 	display: inline-block;
-	margin: 6px;
-	padding: 50px;
-	border-style: 30 dotted blue;
+	max-width: 94.5%;
+	padding-left: 200px;
+	padding-right: 200px;
 }
 
 
@@ -78,9 +78,9 @@ html {
 
 nav a {
 	display: inline-block;
-	padding: 40px;
-	position: relative;
-	right: 40px;
+	padding: 30px;
+	position:relative; 
+	right: 39px;
 	font-family: auto;
 
 }
@@ -89,14 +89,21 @@ img.logo {
 	display: inline-block;
 	margin: 12px;
 	position: relative;
-	left: 790px;
-	bottom: 82px;
+	left: 670px;
+	bottom: 73px;
 
+}
+
+/* Content */
+
+.info {
+	position: relative;
+	bottom: 125px;
 }
 
 .container {
 	position: relative;
-	top: 90px;
+	top: 120px;
 	line-height: 345%;
 }
 
@@ -104,29 +111,30 @@ img.logo {
  .oneh {
 	position: relative;
 	left: 100px;
-	font-size: 70px;
+	font-size: 80px;
 	
 }
 
 .twoh {
 	position: relative;
 	left: 200px;
-	font-size: 70px;
+	font-size: 80px;
 }
 
 .threeh {
 	position: relative;
 	left: 140px;
-	font-size: 70px;
+	font-size: 80px;
 
 }
-
-h6 {
+#start {
+	display: inline;
 	position: relative;
-	left: 150px;
-	width: 130px;
-	padding-left: 50px;
+	left: 170px;
+	width: 150px;
 	height: 60px;
+	padding-left: 35px;
+	padding-right: 35px;
 	box-sizing: content-box;
 	border: 1px solid black
 	
@@ -136,9 +144,55 @@ h6 {
 .logo2 {
 	display: inline-block;
 	position: relative;
-	left: 490px;
-	bottom: 205px;
+	left: 510px;
+	bottom: 225px;
 }
+
+
+.container-two{
+	display: inline-block;
+	width: 50%;
+}
+
+.container-three{
+	display: inline-block;
+	width: 44%;
+	height: 150px;
+	position: relative;
+	left: 30px;
+	
+}
+
+.container-four{
+	display: inline-block;
+	width: 30%;
+	height: 10px;
+}
+
+.container-five{
+	display: inline-block;
+	width: 30%;
+	height: 100px;
+	position: relative;
+	left: 39px;
+	top: 15px;
+}
+
+.container-six{
+	display: inline-block;
+	width: 30%;
+	height: 190px;
+	position: relative;
+	left: 84px;
+	top: 15px;
+}
+
+.copyR{
+	position: relative;
+	top: 40px;
+	text-align: center;
+}
+
 
 
 
