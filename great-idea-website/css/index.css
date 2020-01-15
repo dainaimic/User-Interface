@@ -66,9 +66,8 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 html {
-	display: inline-block;
-	max-width: 94.5%;
-	padding-left: 200px;
+	max-width: 98%;
+	padding-left: 250px;
 	padding-right: 200px;
 }
 
@@ -76,22 +75,22 @@ html {
 
 /* Navagation */
 
-nav a {
-	display: inline-block;
-	padding: 30px;
-	position:relative; 
-	right: 39px;
+nav {
+	margin: 30px;
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
 	font-family: auto;
+	color: lightgrey;
 
 }
 
-img.logo {
-	display: inline-block;
-	margin: 12px;
+.img1 {
+	display: flex;
+	justify-content: flex-end;
 	position: relative;
-	left: 670px;
-	bottom: 73px;
-
+	left: 15px;
+	bottom: 58px;
 }
 
 /* Content */
@@ -103,8 +102,9 @@ img.logo {
 
 .container {
 	position: relative;
-	top: 120px;
+	top: 110px;
 	line-height: 345%;
+	right: 58px;
 }
 
 
@@ -142,54 +142,116 @@ img.logo {
 }
 
 .logo2 {
-	display: inline-block;
+	display: flex;
 	position: relative;
 	left: 510px;
 	bottom: 225px;
 }
 
-
-.container-two{
-	display: inline-block;
-	width: 50%;
+.container-one {
+	display: flex;
+	justify-content: row;
+	width: 100%;
 }
 
-.container-three{
-	display: inline-block;
-	width: 44%;
-	height: 150px;
+
+.container-one .p1 {
+	display: flex;
+	justify-content: column;
 	position: relative;
-	left: 30px;
+	top: 30px;
+	right: 60px;
+	
 	
 }
 
-.container-four{
-	display: inline-block;
-	width: 30%;
-	height: 10px;
+.container-one .p2 {
+	display: flex;
+	justify-content:column;
+	position: relative;
+	right: 0px;
+	top: 29px;
 }
+
+.contain-one .p2, .h42 {
+	display:flex;
+	position: relative;
+	left: 40px;
+}
+
+.middle-img {
+	position: relative;
+	top: 60px;
+}
+
+
 
 .container-five{
-	display: inline-block;
-	width: 30%;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
 	height: 100px;
 	position: relative;
-	left: 39px;
-	top: 15px;
+	top: 90px;
 }
 
-.container-six{
-	display: inline-block;
-	width: 30%;
-	height: 190px;
+.container-five .p3 {
 	position: relative;
-	left: 84px;
-	top: 15px;
+	top: 30px;
+	right: 55px;
+
+	 
 }
 
-.copyR{
+.container-five .p4 {
 	position: relative;
-	top: 40px;
+	top: 30px;
+	right: 54px;
+
+	 
+}
+
+.container-five .p5 {
+	position: relative;
+	top: 30px;
+	right: 43px;
+
+	 
+}
+
+.hr1 {
+	position: relative;
+	top: 150px;
+}
+
+/* Footer */
+
+.last {
+	position: relative;
+	top: 155px;
+}
+
+address {
+	position: relative;
+	top: 2px;
+
+}
+
+div.num {
+	position: relative;
+	top: 10px;
+}
+
+footer a{
+	display: flex;
+	position: relative;
+	top: 20px;
+}
+
+
+.copyC{
+	position: relative;
+	top: 215px;
 	text-align: center;
 }
 
